@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Décryptage Squid Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>△ ◯ □ 312</h1>
+    <p>Clique les symboles dans le bon ordre pour découvrir ton sort.</p>
+    <div class="symbols">
+      <button id="triangle" aria-label="Triangle">
+        <svg width="60" height="60" viewBox="0 0 100 100">
+          <polygon points="50,15 90,85 10,85" stroke="#ff1c65" stroke-width="8" fill="none" />
+        </svg>
+      </button>
+      <button id="circle" aria-label="Cercle">
+        <svg width="60" height="60" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="40" stroke="#ff1c65" stroke-width="8" fill="none" />
+        </svg>
+      </button>
+      <button id="square" aria-label="Carré">
+        <svg width="60" height="60" viewBox="0 0 100 100">
+          <rect x="15" y="15" width="70" height="70" stroke="#ff1c65" stroke-width="8" fill="none" />
+        </svg>
+      </button>
+    </div>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
